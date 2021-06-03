@@ -10,7 +10,7 @@ spark = SparkSession \
 spark.sparkContext.getConf().getAll()
 spark
 
-path = "data/sparkify_log_small.json"
+path = "./data/sparkify_log_small.json"
 user_log = spark.read.json(path)
 
 
